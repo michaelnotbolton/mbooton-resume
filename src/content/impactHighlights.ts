@@ -2,21 +2,21 @@ import type { ImpactHighlight } from './types'
 
 export const impactHighlights: ImpactHighlight[] = [
   {
-    title: 'Turn ambiguity into an execution plan',
-    metric: 'Operator mindset',
+    title: 'Shaped context-aware AI behavior for collaboration products',
+    metric: 'LLM runtime orchestration',
     description:
-      'Frames technical work in business language, acceptance criteria, and next-step clarity so teams can move with confidence.',
+      'Designed the runtime logic that let AI-driven collaboration features respond appropriately to live product context instead of behaving like a one-size-fits-all assistant.',
   },
   {
-    title: 'Bridge strategy and implementation',
-    metric: 'Business + technical fluency',
+    title: 'Built collaboration infrastructure across real-time product surfaces',
+    metric: 'Real-time chat systems',
     description:
-      'Balances product, systems, and delivery concerns without losing the thread of the user-facing outcome.',
+      'Implemented backend and client foundations for richer multi-context communication experiences, advanced rendering, and more flexible real-time interaction patterns.',
   },
   {
-    title: 'Explore new domains without losing structure',
-    metric: 'Range with discipline',
+    title: 'Shipped AI features safely through gating, rollout, and validation',
+    metric: 'Production reliability',
     description:
-      'Moves comfortably between docs tooling, consumer experiments, scheduling research, and machine learning concepts.',
+      'Built eligibility systems, staged rollout paths, and validation strategies so new AI capabilities could be introduced safely in high-scale collaboration environments.',
   },
 ]

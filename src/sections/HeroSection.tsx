@@ -1,33 +1,32 @@
 import { Badge, Button } from '@fluentui/react-components'
 import { heroStats, profile } from '../content/profile'
 
+function externalLinkProps(href: string) {
+  if (href.startsWith('#')) {
+    return {}
+  }
+
+  return {
+    target: '_blank',
+    rel: 'noreferrer',
+  }
+}
+
 export function HeroSection() {
   return (
     <section className="hero-shell">
       <div className="hero-copy">
-        <p className="hero-kicker">Business-oriented SaaS resume site</p>
+        <p className="hero-kicker">Microsoft Teams, AI, and collaboration systems</p>
         <h1 className="hero-title">{profile.name}</h1>
         <p className="hero-role">{profile.role}</p>
         <p className="hero-summary">{profile.summary}</p>
         <p className="hero-availability">{profile.availability}</p>
 
         <div className="hero-actions">
-          <Button
-            appearance="primary"
-            as="a"
-            href={profile.primaryCta.href}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Button appearance="primary" as="a" href={profile.primaryCta.href} {...externalLinkProps(profile.primaryCta.href)}>
             {profile.primaryCta.label}
           </Button>
-          <Button
-            appearance="secondary"
-            as="a"
-            href={profile.secondaryCta.href}
-            target="_blank"
-            rel="noreferrer"
-          >
+          <Button appearance="secondary" as="a" href={profile.secondaryCta.href} {...externalLinkProps(profile.secondaryCta.href)}>
             {profile.secondaryCta.label}
           </Button>
         </div>

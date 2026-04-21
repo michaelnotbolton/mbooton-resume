@@ -4,7 +4,7 @@ import { projects } from '../content/projects'
 
 export function ProjectsSection() {
   return (
-    <SectionBlock title="Selected Work" eyebrow="Signals from GitHub projects">
+    <SectionBlock title="Microsoft Teams Impact" eyebrow="How the work fits together">
       <div className="card-grid card-grid--projects">
         {projects.map((project) => (
           <Card
@@ -14,9 +14,11 @@ export function ProjectsSection() {
           >
             <div className="project-card__header">
               <h3 className="card-title">{project.title}</h3>
-              <Link href={project.link} inline target="_blank">
-                View repo
-              </Link>
+              {project.link ? (
+                <Link href={project.link} inline target="_blank">
+                  {project.linkLabel ?? 'Learn more'}
+                </Link>
+              ) : null}
             </div>
             <p className="card-body">{project.businessSummary}</p>
             <div className="project-card__stack">

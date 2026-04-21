@@ -2,39 +2,35 @@ import type { ProjectEntry } from './types'
 
 export const projects: ProjectEntry[] = [
   {
-    title: 'Office Docs PowerShell',
+    title: 'Context-aware AI behavior in Microsoft Teams',
     businessSummary:
-      'Documentation tooling work centered on making Office automation and admin workflows easier to discover and use.',
-    techStack: ['JavaScript', 'PowerShell', 'Docs tooling'],
+      'Designed and implemented orchestration logic for AI-driven collaboration features in Microsoft Teams so product behavior could adapt dynamically to live context.',
+    techStack: ['TypeScript', 'Node.js', 'LLM feature routing', 'Distributed product systems'],
     outcome:
-      'Signals a practical interest in reducing operational friction for technical teams at scale.',
-    link: 'https://github.com/michaelnotbolton/office-docs-powershell',
+      'Turned complex product state into dependable, production-ready AI behavior for real-time collaboration experiences.',
   },
   {
-    title: 'Song of the Day',
+    title: 'Multi-context collaboration infrastructure',
     businessSummary:
-      'A lightweight Spotify playlist app built around consistency, curation, and a simple recurring user habit.',
-    techStack: ['Web app', 'Spotify workflow', 'Product thinking'],
+      'Built backend and client-side infrastructure for richer communication patterns, private collaboration contexts, and advanced rendering across Microsoft Teams surfaces.',
+    techStack: ['React', 'Real-time chat', 'Client platforms', 'Distributed systems'],
     outcome:
-      'Shows consumer-facing experimentation with delight, routine, and low-friction engagement.',
-    link: 'https://github.com/michaelnotbolton/song_of_the_day',
+      'Enabled more flexible collaboration experiences that could reflect audience, surface, and context instead of treating communication as a single generic stream.',
   },
   {
-    title: 'ASL Recognition',
+    title: 'Feature eligibility and AI gating at scale',
     businessSummary:
-      'A machine learning exploration focused on interpreting sign language inputs into something more usable and actionable.',
-    techStack: ['Python', 'Machine learning', 'Data exploration'],
+      'Developed the systems that determine when AI capabilities should run at all, using product signals, permissions, and service-integrated context to gate behavior safely.',
+    techStack: ['Eligibility systems', 'Permissions', 'Configuration platforms', 'Service integration'],
     outcome:
-      'Highlights curiosity in applied ML and the discipline required to turn noisy inputs into meaningful signals.',
-    link: 'https://github.com/michaelnotbolton/ASL',
+      'Made AI features safer and more predictable by ensuring they were invoked only when the surrounding product context supported them.',
   },
   {
-    title: 'NBA Scheduling Research',
+    title: 'Rollout strategy, validation, and cross-service execution',
     businessSummary:
-      'Research code investigating the complexity behind fair, efficient, and realistic professional sports scheduling.',
-    techStack: ['Python', 'Optimization', 'Research'],
+      'Owned end-to-end delivery across services and clients, using feature flags, internal configuration platforms, testing, and partner coordination to bring complex features into production.',
+    techStack: ['Feature flags', 'ADO', 'CI/CD', 'Validation strategy'],
     outcome:
-      'Reflects comfort with structured analysis, operational constraints, and systems-level tradeoffs.',
-    link: 'https://github.com/michaelnotbolton/LamarREU_NBAscheduling',
+      'Helped complex, cross-service Teams features ship in staged, supportable ways instead of landing as brittle all-at-once launches.',
   },
 ]

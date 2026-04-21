@@ -1,8 +1,8 @@
 const credibilityPoints = [
-  'Business-first positioning',
-  'Modern frontend stack',
-  'Acceptance-tested delivery',
-  'Room for polished content upgrades',
+  'Microsoft Teams meeting intelligence',
+  'Real-time collaboration systems',
+  'LLM gating and rollout safety',
+  'Cross-service product execution',
 ]
 
 export function CredibilityStrip() {

@@ -35,9 +35,9 @@ describe('App', () => {
 
     for (const sectionName of [
       'Impact Highlights',
-      'Selected Work',
+      'Microsoft Teams Impact',
       'Working Style',
-      'Experience Timeline',
+      'Execution Leadership',
       'Contact',
     ]) {
       expect(screen.getByRole('region', { name: sectionName })).toBeInTheDocument()
@@ -50,7 +50,7 @@ describe('App', () => {
     expect(screen.getAllByTestId('project-card')).toHaveLength(projects.length)
 
     for (const contactLink of contactLinks) {
-      expect(screen.getByRole('link', { name: contactLink.label })).toBeInTheDocument()
+      expect(screen.getAllByRole('link', { name: contactLink.label }).length).toBeGreaterThan(0)
     }
   })
 

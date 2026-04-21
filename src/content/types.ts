@@ -14,7 +14,8 @@ export type ProjectEntry = {
   businessSummary: string
   techStack: string[]
   outcome: string
-  link: string
+  link?: string
+  linkLabel?: string
 }
 
 export type ExperienceEntry = {

@@ -2,39 +2,39 @@ import type { ExperienceEntry } from './types'
 
 export const experience: ExperienceEntry[] = [
   {
-    role: 'Business-oriented product and platform contributor',
-    organization: 'Career details will be refined from LinkedIn',
-    period: 'Most recent experience',
+    role: 'AI product behavior and collaboration intelligence',
+    organization: 'Microsoft Teams',
+    period: 'Core product scope',
     summary:
-      'Focused on translating ideas, workflows, and technical effort into something leadership and teams can act on.',
+      'Built the runtime decision-making behind AI-enabled collaboration experiences, translating complex live context into product behavior that could be trusted in production.',
     highlights: [
-      'Connect product shape to delivery realism.',
-      'Prefer documented decisions over hand-wavy momentum.',
-      'Keep technical execution tied to business usefulness.',
+      'Focused on safe, context-aware AI invocation.',
+      'Worked across collaboration features, communication systems, and metadata pipelines.',
+      'Turned product requirements into concrete service and client behavior.',
     ],
   },
   {
-    role: 'Systems, tooling, and workflow thinker',
-    organization: 'Cross-domain portfolio work',
-    period: 'Ongoing',
+    role: 'Cross-service collaboration systems and data flow ownership',
+    organization: 'Microsoft Teams',
+    period: 'Platform execution',
     summary:
-      'Uses small systems, docs workflows, and experiments to sharpen how people find information and move work forward.',
+      'Owned features spanning TypeScript and Node.js services, React clients, and the asynchronous and real-time systems that carry product state across collaboration surfaces.',
     highlights: [
-      'Comfortable moving between code, docs, and process.',
-      'Interested in reducing friction for technical users.',
-      'Builds with maintainability in mind.',
+      'Built infrastructure for advanced communication rendering across product surfaces.',
+      'Validated consistency across distributed state and metadata paths.',
+      'Resolved hard issues involving dependencies, builds, and runtime environments.',
     ],
   },
   {
-    role: 'Applied experimentation across new technologies',
-    organization: 'Independent technical exploration',
-    period: 'Across multiple projects',
+    role: 'Rollout leadership, experimentation, and partner execution',
+    organization: 'Microsoft Teams',
+    period: 'Delivery and operations',
     summary:
-      'Explores consumer apps, ML, and scheduling research with a consistent bias toward structure and usefulness.',
+      'Led rollout strategy and cross-functional execution for complex features, using internal flagging systems, configuration platforms, CI/CD, and partner alignment to ship responsibly.',
     highlights: [
-      'Branches into new domains without losing rigor.',
-      'Uses experiments to test ideas quickly.',
-      'Treats learning as part of product range, not a detour.',
+      'Used staged targeting and controlled release paths for production rollouts.',
+      'Built comprehensive validation for complex multi-scenario product behavior.',
+      'Acted as a technical lead across engineering, product, and partner teams.',
     ],
   },
 ]

@@ -2,31 +2,32 @@ import type { HeroStat } from './types'
 
 export const heroStats: HeroStat[] = [
   {
-    label: 'Focus',
-    value: 'Business-aligned product and platform work',
+    label: 'Domain',
+    value: 'AI-powered collaboration and meeting intelligence in Microsoft Teams',
   },
   {
-    label: 'Bias',
-    value: 'Clear plans, crisp delivery, strong follow-through',
+    label: 'Stack',
+    value: 'TypeScript, Node.js, React, distributed services, chat, and meeting metadata',
   },
   {
-    label: 'Style',
-    value: 'Modern systems thinking with human-friendly communication',
+    label: 'Scope',
+    value: 'Product behavior, rollout strategy, cross-service execution, and reliability',
   },
 ]
 
 export const profile = {
   name: 'Michael Booton',
-  role: 'Business-minded technologist for products, process, and delivery.',
+  role: 'I build AI-driven collaboration systems for Microsoft Teams meetings and chat.',
   summary:
-    'I build credible, business-oriented digital experiences that connect technical depth to decision-ready outcomes.',
-  availability: 'Open to operator, product, platform, and technical strategy conversations.',
+    'My work centers on making meeting assistants, chat surfaces, and LLM-backed product behavior reliable enough for real-time collaboration at scale.',
+  availability:
+    'Strongest at turning ambiguous product ideas into safe, production-ready systems across clients, services, and rollout pipelines.',
   primaryCta: {
-    label: 'View GitHub',
-    href: 'https://github.com/michaelnotbolton',
+    label: 'See Teams Impact',
+    href: '#microsoft-teams-impact-heading',
   },
   secondaryCta: {
-    label: 'LinkedIn Placeholder',
-    href: 'https://www.linkedin.com/in/your-linkedin-profile/',
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/michaelnotbolton/',
   },
 }

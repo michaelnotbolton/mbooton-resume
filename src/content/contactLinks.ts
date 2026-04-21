@@ -8,12 +8,12 @@ export const contactLinks: ContactLink[] = [
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/your-linkedin-profile/',
-    supportingText: 'Replace with your LinkedIn profile when you are ready.',
+    href: 'https://www.linkedin.com/in/michaelnotbolton/',
+    supportingText: 'Professional background, leadership context, and broader career history.',
   },
   {
     label: 'Email',
-    href: 'mailto:michael@example.com',
-    supportingText: 'Swap in your preferred inbox before publishing publicly.',
+    href: 'mailto:me@michaelbooton.dev',
+    supportingText: 'Direct contact for opportunities, collaboration, and follow-up conversations.',
   },
 ]

@@ -29,7 +29,8 @@ Then('I should see {int} project cards', async ({ page }, count: number) => {
 })
 
 Then('I should see the contact link {string}', async ({ page }, label: string) => {
-  await expect(page.getByRole('link', { name: label, exact: true })).toBeVisible()
+  const contactRegion = page.getByRole('region', { name: 'Contact' })
+  await expect(contactRegion.getByRole('link', { name: label, exact: true })).toBeVisible()
 })
 
 Then('the page should mark motion as reduced', async ({ page }) => {

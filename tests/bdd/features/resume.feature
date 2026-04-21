@@ -6,14 +6,14 @@ Feature: Business resume landing page
   Scenario: Hero messaging is visible
     Given I open the resume homepage
     Then I should see the hero heading "Michael Booton"
-    And I should see the text "Business-minded technologist for products, process, and delivery."
+    And I should see the text "I build AI-driven collaboration systems for Microsoft Teams meetings and chat."
 
   Scenario: Hiring managers can scan the major sections
     Given I open the resume homepage
     Then I should see the section "Impact Highlights"
-    And I should see the section "Selected Work"
+    And I should see the section "Microsoft Teams Impact"
     And I should see the section "Working Style"
-    And I should see the section "Experience Timeline"
+    And I should see the section "Execution Leadership"
     And I should see the section "Contact"
 
   Scenario: Selected work renders as project cards

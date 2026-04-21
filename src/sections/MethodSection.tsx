@@ -3,16 +3,16 @@ import { SectionBlock } from '../components/SectionBlock'
 
 const workingStyle = [
   {
-    title: 'Frame the business question first',
-    body: 'Keep the work anchored to a decision, an outcome, or a risk worth reducing.',
+    title: 'Use context, not hype, to make AI useful',
+    body: 'Anchor AI behavior to product context, permissions, and intent so the system behaves appropriately in production.',
   },
   {
-    title: 'Use BDD to keep delivery honest',
-    body: 'Translate intent into scenarios so the finished experience matches the promise.',
+    title: 'Build through scenarios, not isolated screens',
+    body: 'Design for the full operating reality of a product from the start, including edge cases, role differences, and cross-surface behavior instead of patching them on later.',
   },
   {
-    title: 'Ship with polish, not noise',
-    body: 'Add character through motion and texture while preserving clarity for fast readers.',
+    title: 'Drive execution across teams and systems',
+    body: 'Move work from idea to rollout by coordinating engineering, product, partner teams, and deployment systems instead of optimizing one layer in isolation.',
   },
 ]
 

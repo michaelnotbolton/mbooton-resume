@@ -4,7 +4,7 @@ import { experience } from '../content/experience'
 
 export function ExperienceSection() {
   return (
-    <SectionBlock title="Experience Timeline" eyebrow="Resume detail with room to refine">
+    <SectionBlock title="Execution Leadership" eyebrow="The shape of the work behind the features">
       <div className="timeline">
         {experience.map((entry) => (
           <Card className="resume-card resume-card--timeline" key={`${entry.role}-${entry.period}`}>
